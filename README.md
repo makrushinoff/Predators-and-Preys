@@ -1,4 +1,4 @@
-# IASA_Organiser
+# Predators and Preys
 
 Project for OOP course
 
