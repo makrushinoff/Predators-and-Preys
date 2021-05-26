@@ -1,13 +1,16 @@
 # Predators and Preys
 
-Project for OOP course
+## Project for OOP course
 
-Реалізувати покрокове моделювання еволюції популяцій тварин, що представляють
-хижаків та здобич. На кожному кроці здобич та хижаки переміщуються у пошуках їжі на
-сусідні клітинки. Окремі особливі клітинки є їжею для здобичі, яка є, в свою чергу, їжею
-для хижаків. При потраплянні здобичі та хижака на одну клітинку, хижак їсть здобич.
-Передбачити народження нових тварин за умови достатку їжі. Передбачити більше
-одного виду хижаків та здобичі, що перебувають на ігровому полі. Правила поведінки
-(пошуку їжі, уникнення ворогів) мають відрізнятися для різних тварин та (як варіант)
-еволюціонувати з часом. Вести статистику чисельності популяцій.
+Predators and Preys - is e step-by-step emulator of evolution of animal population, that present by predators and preys.
 
+On each step of simulation, preys and predators move on the map, looking for food. Separate cells on map are food for preys, which are food for predators.
+When predators appear on the prey cell - predators eat this prey. The same for preys and dood (grass for example).
+Every simulation step decrease animals` health points by one. 
+There are 3 types of predators and 3 types of preys. They differ from each other by 
+  1) number of their own steps on map, during one step in simulation.
+  2) Health points.
+  3) Number of food, that need for reproduction.
+
+Application based on Java Core, all OOP aspects, features and principles and GoF patterns.
+Visual part based on GUI, by JavaFX.
